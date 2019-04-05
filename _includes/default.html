@@ -23,14 +23,17 @@
 	<link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
 
 	<!-- Le fav and touch icons -->
-	<!-- Update these with your own images
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	-->
+    <link rel="shortcut icon" href="{{ site.BASE_PATH }}/assets/ico/favicon.png">
+	<link rel="apple-touch-icon" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-114x114.png">
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
+
+    <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+
 </head>
 
 <body>
@@ -98,7 +101,7 @@
 		<footer>
 			<hr/>
 			<p>
-				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with <a href="http://jekyllrb.com/">Jekyll</a>. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} 
 			</p>
 		</footer>
 	</div>
