@@ -19,15 +19,14 @@ description: Davis Owen
 author:
   name: Davis Owen
   email: sdowen12@gmail.com
-  github: https://github.com/DavisOwen
-  linkedin: https://www.linkedin.com/in/davis-o-88726b111/
+  github: DavisOwen
+  linkedin: davis-o-88726b111
   bio: My Blog
 
 categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
-#sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH:
 
