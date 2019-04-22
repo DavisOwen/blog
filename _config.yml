@@ -5,7 +5,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-google_analytics: dbyll
+google_analytics: blog
 title: Davis Owen
 
 defaults:
@@ -28,7 +28,7 @@ tags_path: tags.html
 
 # set it as url of an image
 
-BASE_PATH:
+BASE_PATH: /blog
 
 plugins:
   - jekyll-paginate
