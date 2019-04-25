@@ -28,7 +28,7 @@ tags_path: tags.html
 
 # set it as url of an image
 
-BASE_PATH: /blog
+BASE_PATH:
 
 plugins:
   - jekyll-paginate
